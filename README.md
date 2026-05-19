@@ -91,3 +91,59 @@ The Random Forest model provides highly accurate cement demand forecasts and can
 - Statsmodels
 - Jupyter Notebook
 - SQLite
+
+## Key Visualizations
+
+### Daily Cement Consumption Trend
+
+The daily cement consumption trend visualization highlights fluctuations in operational demand across the observed time period. The chart reveals recurring increases and declines in cement usage, indicating variations in construction activities, project schedules, and operational intensity across multiple construction sites.
+
+![Daily Consumption Trend](outputs/daily_consumption_trend.png)
+
+---
+
+### Monthly Cement Consumption Trend
+
+The monthly cement consumption visualization provides a broader view of operational demand patterns over time. The chart indicates noticeable monthly variations in cement usage, suggesting the presence of changing construction activities and temporal demand behaviour.
+
+![Monthly Consumption Trend](outputs/monthly_consumption.png)
+
+---
+
+### Planned Pour vs Actual Cement Consumption
+
+The planned versus actual cement consumption chart demonstrates a positive relationship between planned pour volumes and actual cement demand. This confirms that planned construction activities are a major driver of cement consumption forecasting across sites.
+
+![Planned vs Actual](outputs/planned_vs_actual.png)
+
+---
+
+### Rainfall vs Cement Consumption
+
+The rainfall impact visualization illustrates the relationship between weather conditions and cement demand. The analysis suggests that higher rainfall levels may contribute to reduced construction activity and lower cement consumption volumes.
+
+![Rainfall vs Consumption](outputs/rainfall_vs_consumption.png)
+
+---
+
+### Top Cement Consuming Sites
+
+The top cement consuming sites chart identifies the construction sites with the highest cumulative cement demand. These sites represent major operational locations that may require enhanced inventory planning and forecasting attention.
+
+![Top Consuming Sites](outputs/top_consuming_sites.png)
+
+---
+
+### Feature Importance Analysis
+
+The feature importance visualization identifies the most influential variables affecting cement demand forecasting. Planned pours, rainfall, deliveries, and opening inventory were found to be the strongest predictors of cement consumption.
+
+![Feature Importance](outputs/feature_importance.png)
+
+---
+
+### Actual vs Predicted Forecast Comparison
+
+The actual versus predicted forecast chart demonstrates the strong predictive performance of the Random Forest model. The close alignment between actual and forecasted values confirms the model’s ability to accurately capture operational cement demand patterns.
+
+![Actual vs Predicted](outputs/actual_vs_predicted.png)
