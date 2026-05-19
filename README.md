@@ -176,4 +176,4 @@ All exported deliverables are available inside the `outputs/` directory.
 - Explore advanced forecasting models such as XGBoost and LSTM
 - Add automated inventory alert systems
 - Deploy forecasting APIs for enterprise integration
-![Actual vs Predicted](outputs/actual_vs_predicted.png)
+
